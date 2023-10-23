@@ -8,3 +8,6 @@ if (inputValue === "") {
     alert ("Please enter a positive number.");
 }
 }
+document.getElementById("yourButton").addEventListener("click",function(event){
+    event.preventDefault();// тоог 0-т хувааж болохгүй.
+});

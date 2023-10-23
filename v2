@@ -16,6 +16,7 @@
                 </tr>
 
                 <tr>
+                    <td></td>
                     <td><input type="button" value="(" onclick="display.value+='('"></td>
                     <td><input type="button" value=")" onclick="display.value+=')'"></td>
                     <td><input type="button" value="c" onclick="display.value=' '"></td>

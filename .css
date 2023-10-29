@@ -45,5 +45,19 @@ input[type="button"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background: white;
+}
+#darkModeButton {
+    position: fixed;
+    top: 10px; right: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 20px; border-color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: clamp(5px, 5vw, 10px);
+}
+
+#darkModeButton:hover {
+    background-color: #555;
 }

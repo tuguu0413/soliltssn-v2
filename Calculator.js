@@ -11,3 +11,8 @@ if (inputValue === "") {
 document.getElementById("yourButton").addEventListener("click",function(event){
     event.preventDefault();// тоог 0-т хувааж болохгүй.
 });
+function toggleDarkMode() {
+    window.location.href = 'darkmode/main_dm.html';
+}
+
+document.getElementById('darkModeButton').addEventListener('click', toggleDarkMode);

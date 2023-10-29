@@ -3,6 +3,7 @@
     <head>
         <title>HTML дээр хийсэн тооцоолуур</title>
         <link rel="stylesheet" type="text/css" href="Calc.css">
+        <script src="script.js" defer></script>
     </head>
 
     <body>

@@ -47,7 +47,7 @@ input[type="button"] {
     align-items: center;
     background: black;
 }
-#darkModeButton {
+#lightModeButton {
     position: fixed;
     top: 10px; right: 10px;
     background-color: #333;
@@ -58,6 +58,6 @@ input[type="button"] {
     font-size: clamp(5px, 5vw, 10px);
 }
 
-#darkModeButton:hover {
+#lightModeButton:hover {
     background-color: #555;
 }
